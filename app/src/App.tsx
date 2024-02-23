@@ -1,13 +1,8 @@
 import './App.css'
-import { InProgress } from "@kadela/components";
+import { Home } from "@kadela/components/home";
 
 export function App() {
-  return (
-      <div>
-          <div>
-              <InProgress/>
-          </div>
-      </div>
-
-  )
+    return (
+        <Home/>
+    )
 }

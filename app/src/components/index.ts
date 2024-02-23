@@ -1,1 +1,1 @@
-export * from './InProgress'
+export * from './home'
