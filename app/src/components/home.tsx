@@ -4,6 +4,10 @@ import { Box } from "@mui/material";
 import Container from "@mui/material/Container";
 
 export function Home() {
+    const currentYear = new Date().getFullYear();
+    const startOfTheCareerYear = 2017;
+    const numberOfYears = currentYear - startOfTheCareerYear;
+
     return (
         <Container>
             <Box display="flex" mt={{sm: 5, md: 20}} gap={4} flexDirection={{ xs: 'column', sm: 'row' }} alignItems="center">
@@ -28,7 +32,7 @@ export function Home() {
                 <Box width="100%" py={{sm: 0, md: 5}} display="flex" flexDirection="column" gap={5}>
                     <Box>
                         Věnuji se vývoji backendových aplikací, převážně v PHP. Mám zkušenosti s PHP frameworky jako Symfony a Slim.
-                        Rád zkoumám techniky testování a kvality kódu. Programování se věnuji již 7 rokem.
+                        Rád zkoumám techniky testování a kvality kódu. Programování se věnuji už {numberOfYears} let.
 
                         <br/><br/>
                         V poslední době se seznamuji s vývojem frontendových aplikací v Reactu.
