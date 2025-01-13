@@ -20,5 +20,8 @@ npm-container:
 npm-install:
 	docker-compose exec node npm install
 
+npm-build-dev:
+	docker-compose exec node npm run build-dev
+
 npm-run-dev:
 	docker-compose exec node npm run dev
