@@ -5,7 +5,7 @@ import theme from "@kadela/theme";
 
 export function App() {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={theme} defaultMode={"light"}>
             <CssBaseline/>
             <Home/>
         </ThemeProvider>
