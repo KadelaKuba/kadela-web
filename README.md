@@ -20,12 +20,6 @@ make npm-build-dev
 
 ### Development
 
-#### Standards (ECS, PHPStan,..)
-Use script for checking all app standards
-```
-make check-all
-```
-
 #### Makefile
 For effective work with host system. The config and more info in `Makefile` in project root directory.
 
