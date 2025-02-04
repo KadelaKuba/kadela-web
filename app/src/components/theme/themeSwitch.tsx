@@ -24,13 +24,12 @@ export function ThemeSwitch() {
 
     return (
         <Box sx={{
-            display: 'flex',
-            justifyContent: 'right',
-            p: 3,
+            position: 'absolute',
+            top: 3,
+            right: 0,
+            m: {xs: 0.5, md: 3}
         }}>
-            <FormGroup>
-                <ThemeCustomSwitchStyle sx={{m: 1}} checked={checked} onChange={handleChange}/>
-            </FormGroup>
+            <ThemeCustomSwitchStyle checked={checked} onChange={handleChange}/>
         </Box>
     );
 }

@@ -30,3 +30,4 @@ Deployment is performed using the [Netlify](https://www.netlify.com/) platform.
 - [x] Dark mode
 - [ ] Eslint standards checker
 - [ ] Favicon
+- [ ] Lighthouse optimizations
