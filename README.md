@@ -31,3 +31,7 @@ For effective work with host system. The config and more info in `Makefile` in p
 
 ### Deployment
 Deployment is performed using the [Netlify](https://www.netlify.com/) platform.
+
+### TODOs
+- [x] Dark mode
+- [ ] Eslint standards checker
