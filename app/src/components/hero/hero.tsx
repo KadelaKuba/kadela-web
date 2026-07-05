@@ -10,7 +10,7 @@ export function Hero() {
             <Stack
                 direction={{ xs: 'column', md: 'row' }}
                 spacing={{ xs: 4, md: 6 }}
-                alignItems={{ xs: 'flex-start', md: 'center' }}
+                sx={{ alignItems: { xs: 'flex-start', md: 'center' } }}
             >
                 <Box sx={{ flex: 1, minWidth: 0 }}>
                     <Typography

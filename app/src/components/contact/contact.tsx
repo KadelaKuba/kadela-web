@@ -10,7 +10,7 @@ const GITHUB_URL = 'https://github.com/KadelaKuba';
 export function Contact() {
     return (
         <Section id="contact" muted>
-            <Stack spacing={3} maxWidth={720}>
+            <Stack spacing={3} sx={{ maxWidth: 720 }}>
                 <Typography
                     variant="h2"
                     sx={{ fontSize: { xs: '1.75rem', md: '2.25rem' }, fontWeight: 700 }}

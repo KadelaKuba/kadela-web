@@ -9,7 +9,7 @@ export function About() {
 
     return (
         <Section id="about" muted>
-            <Stack spacing={3} maxWidth={760}>
+            <Stack spacing={3} sx={{ maxWidth: 760 }}>
                 <Typography
                     variant="h2"
                     sx={{ fontSize: { xs: '1.75rem', md: '2.25rem' }, fontWeight: 700 }}

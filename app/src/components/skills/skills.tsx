@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
 import { Stack, Typography } from "@mui/material";
 import { Section } from "@kadela/components/layout/section";
-import { CodeBlock, Tok } from "@kadela/components/code/codeBlock";
+import { CodeBlock } from "@kadela/components/code/codeBlock";
+import { Tok } from "@kadela/components/code/tok";
 
 const SKILLS: Record<string, string[]> = {
     backend: ['PHP', 'Symfony', 'Nette', 'Doctrine', 'RabbitMQ'],
